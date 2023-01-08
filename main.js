@@ -17,7 +17,7 @@ function getTime() {
     timer.textContent = color;
     container.style.background = color;
 
-    setTimeout(getTime, 1 *1000);
+    setTimeout(getTime, 1000);
 }
 
 getTime();
